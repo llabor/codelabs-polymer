@@ -177,7 +177,7 @@ class ReceptorEvento extends Polymer.Element {
 window.customElements.define(ReceptorEvento.is, ReceptorEvento);
 ```
 
-Receptor-evento has nothing new: **it's a component with a couple of properties** that are **bound two-way in the template**. What's new however is how we're going to **set the value of those properties**.
+Receptor-evento has nothing new: **it's a component with a couple of properties** that are **bound one-way in the template**. What's new however is how we're going to **set the value of those properties**.
 
 First **import receptor-evento in gestor-evento and add it to the template**.
 
